@@ -1,0 +1,52 @@
+//
+//  PrefixHeader.pch
+//  TRProject
+//
+//  Created by Qinting on 16/7/30.
+//  Copyright © 2016年 yingxin. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+
+#import <MBProgressHUD.h>
+
+#import <AFNetworking.h>
+#import <BlocksKit.h>
+#import <BlocksKit+UIKit.h>
+#import <CHTCollectionViewWaterfallLayout.h>
+#import <CocoaLumberjack.h>
+//#import <iCarousel.h>
+
+#define MAS_SHORTHAND_GLOBALS
+#import <Masonry.h>
+
+#import <MJRefresh.h>
+#import <MLTransition.h>
+#import <UIImageView+WebCache.h>
+#import <UITableView+FDTemplateLayoutCell.h>
+#import <WMPageController.h>
+#import <YYKit.h>
+
+
+#import "NSObject+Parse.h"
+#import "UIScrollView+Refresh.h"
+#import "UIView+HUD.h"
+#import "NSString+XQ.h"
+#import "NSString+CT.h"
+#import "NSString+Crow.h"
+#import "NSString+ZJT.h"
+
+
+#import "RequestPath.h"
+#import "Constant.h"
+#import "NetManager.h"
+#import "BaseViewModel.h"
+
+#import "CTFactory.h"
+
+#endif /* PrefixHeader_pch */
